@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--written by Nihal Towfiq-->
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="themes/default/default.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="themes/light/light.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="themes/dark/dark.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="themes/bar/bar.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="nivo-slider.css"
+      type="text/css"
+      media="screen"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Code Club</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="header">
+          <h1>Code Club</h1>
+          <p>Coffee and Code</p>
+        </div>
+      </header>
+
+      <nav>
+        <div id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inside.html">HTML & CSS</a></li>
+            <li>
+              <a href="#">Javascript &raquo;</a>
+              <ul>
+                <li><a href="#">VanillaJS</a></li>
+                <li>
+                  <a href="#">Frameworks &raquo;</a>
+                  <ul>
+                    <li><a href="#">AngularJS</a></li>
+                    <li><a href="#">VueJS</a></li>
+                    <li><a href="#">ReactJS</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Libraries</a></li>
+              </ul>
+            </li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">Python</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section>
+        <div id="s_wrapper">
+          <div class="slider-wrapper theme-dark">
+            <div id="slider" class="nivoSlider">
+              <img src="img/code.jpg" />
+              <img src="img/JavaScript.jpg" />
+              <img src="img/com.jpg" />
+              <img src="img/python.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="content_wrapper">
+        <div id="content">
+          <article id="single_article">
+            <h2>Programmer</h2>
+            <div id="imgp_wrap">
+              <img src="img/1.jpg" alt="image" />
+              <p>
+                Write something about programmer Lorem Ipsum is simply dummy
+                text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum
+                passages, and more recently with desktop publishing software
+                like Aldus PageMaker including versions of Lorem Ipsum. [...]
+              </p>
+            </div>
+          </article>
+
+          <article id="single_article">
+            <h2>Programmer</h2>
+            <div id="imgp_wrap">
+              <img src="img/2.jpg" alt="image" />
+              <p>
+                Write something about programmer Lorem Ipsum is simply dummy
+                text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum
+                passages, and more recently with desktop publishing software
+                like Aldus PageMaker including versions of Lorem Ipsum. [...]
+              </p>
+            </div>
+          </article>
+
+          <article id="single_article">
+            <h2>Programmer</h2>
+            <div id="imgp_wrap">
+              <img src="img/3.jpg" alt="image" />
+              <p>
+                Write something about programmer Lorem Ipsum is simply dummy
+                text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum
+                passages, and more recently with desktop publishing software
+                like Aldus PageMaker including versions of Lorem Ipsum. [...]
+              </p>
+            </div>
+          </article>
+          <article id="single_article">
+            <h2>Programmer</h2>
+            <div id="imgp_wrap">
+              <img src="img/4.jpg" alt="image" />
+              <p>
+                Write something about programmer Lorem Ipsum is simply dummy
+                text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. [...]
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div id="sidebar">
+          <aside>
+            <h2>Side Bar</h2>
+            <ul>
+              <li><a href="#">node.js</a></li>
+              <li><a href="#">MongoDB</a></li>
+              <li><a href="#">Wordpress</a></li>
+              <li><a href="#">mySQL</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+
+      <footer>
+        <div id="footer">
+          <p>&copy; all rights reserved by Nihal Towfiq</p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+      $(window).load(function() {
+        $("#slider").nivoSlider();
+      });
+    </script>
+  </body>
+</html>
